@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(30, 25, 45);
+}
+
+section {
+    height: 100vh;
+    min-height: 100vh;
+    width: 100vw;
+    min-width: 100vw;
+
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+}
+
+div.word {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.word>div {
+    width: 4rem;
+    height: 4rem;
+    color: black;
+    font-size: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    display: flex;
+    justify-content: center;
+
+    margin: 0.5rem;
+
+    background-color: rgb(238, 236, 236);
+
+}
+
+.congratz {
+    visibility: hidden;
+    background-color: rgb(30, 25, 45);
+
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+    position: absolute;
+    z-index: 100;
+
+    width: 80vw;
+    min-width: 70vw;
+    height: 50vh;
+    min-height: 40vh;
+}
+
+button {
+    background-color: rgb(148, 27, 255);
+    color: white;
+    height: fit-content;
+}
+
+button:hover {
+    background-color: goldenrod;
+}
+
+header {
+    background-color: grey;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer {
+    background-color: grey;
+    height: 10%;
+    width: 100%;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
