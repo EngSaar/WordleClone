@@ -2,7 +2,7 @@ let count = 0;
 let retry = 0;
 let score = 0;
 let word;
-let url = "x https://random-word-api.herokuapp.com/word?length=5";
+let url = "https://random-word-api.herokuapp.com/word?length=5";
 
 let guessedWord = "";
 
